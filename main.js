@@ -6,10 +6,8 @@ let chatsId;
 let btn = document.getElementById("btn");
 btn.addEventListener("click", function (e) {
   e.preventDefault();
-  botsToken =
-    "6625746777:AAFv4iYe_dWyD2Mf11HTUyrX_ShrARp0_2E" ||
-    document.getElementById("botsToken").value;
-  chatsId = "-1002013506547" || document.getElementById("chatsId").value;
+  botsToken = document.getElementById("botsToken").value;
+  chatsId = document.getElementById("chatsId").value;
 
   console.log(botsToken);
   console.log(chatsId);
